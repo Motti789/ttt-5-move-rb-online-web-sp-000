@@ -7,6 +7,9 @@ def display_board(board)
 end
 
  def input_to_index(input)
-puts{input_to_index["5"]}
- end
- '5'.to_i
+input .to_i - 1
+  end
+
+def move(board, index, current_player = x)
+  board[index] = current_player
+end
