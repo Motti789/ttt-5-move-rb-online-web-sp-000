@@ -6,7 +6,7 @@ require_relative '../lib/move.rb'
 
 def board(" ", " ", " ", " ", " ", " ", " ", " ", " ")
 
-  "Where would you like to go" 
+  "Where would you like to go"
   input = gets.strip
   index = input_to_index
   move(board, index, current_player = "X")
